@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>The Dog House</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/style.css">
     </head>
 
 <body>
@@ -52,7 +53,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="img-fluid" width="100%" height="50%" src="/Images/Image carousel 1.jpg" aria-hidden="true" alt="Femme avec teckel">
+                    <img class="img-fluid" width="100%" height="50%" src="./Images/Image carousel 1.jpg" aria-hidden="true" alt="Femme avec teckel">
                     <div class="container">
                         <div class="carousel-caption text-start">
                             <h1>Découvrir nos animaux</h1>
@@ -62,7 +63,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="img-fluid" width="100%" height="50%" src="/Images/Image carousel 2.jpg" aria-hidden="true" alt="Plusieurs chiens en promenade">
+                    <img class="img-fluid" width="100%" height="50%" src="./Images/Image carousel 2.jpg" aria-hidden="true" alt="Plusieurs chiens en promenade">
                     <div class="container">
                         <div class="carousel-caption text-start">
                             <h1>Devenir bénévole</h1>
@@ -72,7 +73,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="img-fluid" width="100%" height="100%" src="/Images/Image carousel 3.jpg" aria-hidden="true" alt="Museau de chien">
+                    <img class="img-fluid" width="100%" height="50%" src="./Images/Image carousel 3.jpg" aria-hidden="true" alt="Museau de chien">
                     <div class="container">
                         <div class="carousel-caption text-start">
                             <h1>Nous soutenir</h1>
@@ -91,38 +92,39 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-<!--Debut Carrousel-->
+<!--Fin Carrousel-->
     </header>
     
+<!--Card-->
     <section id="card">
         <div class="container mt-5">
             <h1 class="text-center mb-5">Nos actualités</h1>
             <div class="row">
-                <div class="col-12 col-md-4">
-                    <div class="card mb-3">
-                        <img src="/Images/card 1.jpg" class="card-img-top" alt="Chien sur le tapis">
+                <div class="col d-flex justify-content-centre">
+                    <div class="card border-success mb-3" style="width: 18rem;">
+                        <img src="./Images/card 1.jpg" class="card-img-top" alt="Chien sur le tapis">
                         <div class="card-body">
-                            <h5 class="card-title">Portes Ouvertes les 7 et 8 mars </h5>
+                            <h5 class="card-title text-center">Portes Ouvertes les 7 et 8 mars </h5>
                             <p class="card-text">Venez rencontrer nos stars à quatre pattes, prêts à écrire avec vous une belle histoire!</p>
-                            <a href="#" class="btn btn-success">En savoir +</a>
+                            <a href="events.html" class="btn btn-success">En savoir +</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4">
-                    <div class="card mb-3">
-                        <img src="/Images/Card 2.jpg" class="card-img-top" alt="Chien dans les bras d'une femme">
+                <div class="col  d-flex justify-content-centre">
+                    <div class="card border-success mb-3" style="width: 18rem;">
+                        <img src="./Images/Card 2.jpg" class="card-img-top" alt="Chien dans les bras d'une femme">
                         <div class="card-body">
-                            <h5 class="card-title">Devenir bénévole</h5>
+                            <h5 class="card-title text-center">Devenir bénévole</h5>
                             <p class="card-text">Devenir bénévole,c’est s’engager à nos côtés pour venir en aide aux animaux, mais aussi plonger dans une formidable aventure, riche de rencontres,d’expériences et d’épanouissement personnel</p>
-                            <a href="#" class="btn btn-success">En savoir +</a>
+                            <a href="#contact" class="btn btn-success">En savoir +</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 ">
-                    <div class="card mb-3 ">
-                        <img src="/Images/card 3.jpg" class="card-img-top" alt="Le chien">
+                <div class="col d-flex justify-content-centre">
+                    <div class="card border-success mb-3" style="width: 18rem;">
+                        <img src="./Images/card 3.jpg" class="card-img-top" alt="Le chien">
                         <div class="card-body">
-                            <h5 class="card-title">Votre soutien est précieux</h5>
+                            <h5 class="card-title text-center">Votre soutien est précieux</h5>
                             <p class="card-text">Quel que soit le montant de votre don, celui-ci va nous aider dans le combat que nous menons chaque jour pour le bien être des animaux.</p>
                             <a href="#dons" class="btn btn-success">En savoir +</a>
                         </div>
@@ -131,6 +133,7 @@
             </div>
         </div>
     </section>
+<!--Qui-->
     <section id="qui">
         <div class="container mt-5">
             <div class="row">
@@ -190,6 +193,7 @@
             </div>
         </div>
     </section>
+<!--Dons-->
     <section id="dons">
         <div class="container mt-5">
             <h2 class="text-center">Aidez-nous, faites un don</h2>
@@ -248,7 +252,7 @@
             </div>
         </div>
     </section>
-
+<!--Contact-->
     <footer id="contact" style="background-color: #FEE3D0;">
         <div class="container">
             <h2 class="p-5 text-center">Contactez-nous</h2>
